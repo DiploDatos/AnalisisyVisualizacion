@@ -28,8 +28,15 @@ Si prefieren utilizar otro manejador de paquetes distinto de conda, las librerí
 * pandas
 * seaborn
 
+### Opcionales
+
+Las siguientes librerías son necesarias para correr los ejemplos con R:
+
+```
+$ conda install -c r r-essentials rpy2
+```
+
 ## Datasets
 
 Los datasets con los que estaremos trabajando se encuentran en https://cs.famaf.unc.edu.ar/~mteruel/datasets/diplodatos. Son pequeños, pero si quieren pueden llevarlos previamente descargados.
-
 
