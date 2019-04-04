@@ -13,6 +13,7 @@ $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 $ bash Miniconda3-latest-Linux-x86_64.sh
 $ conda create --name diplodatos-ayv python=3.5 numpy scipy jupyter nb_conda
 $ source activate diplodatos-ayv
+$ pip install -U seaborn
 ```
 
 Una vez que hayan activado el environment y clonado este repositorio, en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
@@ -38,5 +39,5 @@ $ conda install -c r r-essentials rpy2
 
 ## Datasets
 
-Los datasets con los que estaremos trabajando se encuentran en https://cs.famaf.unc.edu.ar/~mteruel/datasets/diplodatos. Son pequeños, pero si quieren pueden llevarlos previamente descargados.
+Los datasets con los que estaremos trabajando se encuentran en https://drive.google.com/drive/folders/1yDFFyIiEf6wbA8LE7bVEBXBuz8Fq4dlv?usp=sharing. No todos son necesarios, la mayoría los usamos sólo en ejemplos.
 
