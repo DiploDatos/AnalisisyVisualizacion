@@ -4,17 +4,21 @@
 
 ## Requisitos de Instalación
 
-Hay dos manejadores principales de paquetes para Python: conda y pip. Para este curso les recomendamos usar conda, ya que funciona también como un manejador de entornos (como virtualenv). Además de ello, las notebooks estarán escritas para Python 3.5.
+Hay dos manejadores principales de paquetes para Python: conda y pip. Para este curso les recomendamos usar conda, ya que funciona también como un manejador de entornos (como virtualenv). Además de ello, las notebooks estarán escritas para Python 3.
 
-Para configurar el entorno de trabajo con jupyter y todas las herramientas necesarias para este curso, pueden ejecutar los siguientes comandos:
+Para configurar el entorno de trabajo con jupyter y todas las herramientas necesarias para este curso, pueden ejecutar los siguientes comandos (Unix):
 
 ```
-$ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-$ bash Miniconda3-latest-Linux-x86_64.sh
-$ conda create --name diplodatos-ayv python=3.5 numpy scipy jupyter nb_conda
-$ source activate diplodatos-ayv
-$ pip install -U seaborn
+$ wget https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh
+$ bash Anaconda3-2018.12-Linux-x86_64.sh
+$ source ~/.bashrc
+$ conda create --name diplodatos python=3.6 anaconda
+$ source activate diplodatos
 ```
+
+Instrucciones más completas [aquí](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart) cortesía de Digital Ocean. 
+
+Si ya tenían conda instalado, comprueben que la versión instala seaborn 0.9 y no la 0.8, que a pesar de no ser un major release tiene varios major changes que hacen que los ejemplos de Internet. Ej: catplot (0.9) vs factorplot (0.8). Instalar manualmente seaborn 0.9 hace que, en algunas distribuciones, se rompa jupyter, así que en ese caso les recomendamos que i) reinstalen anaconda o ii) usen seaborn 0.8 directamente.
 
 Una vez que hayan activado el environment y clonado este repositorio, en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
 
