@@ -4,9 +4,11 @@
 
 ## Requisitos de Instalación
 
-Hay dos manejadores principales de paquetes para Python: conda y pip. Para este curso les recomendamos usar conda, ya que funciona también como un manejador de entornos (como virtualenv). Además de ello, las notebooks estarán escritas para Python 3.
+Hay dos manejadores principales de paquetes para Python: conda y pip. Para este curso les recomendamos usar anacondaconda, ya que funciona también como un manejador de entornos (como virtualenv). Además de ello, las notebooks estarán escritas para Python 3.
 
-Para configurar el entorno de trabajo con jupyter y todas las herramientas necesarias para este curso, pueden ejecutar los siguientes comandos (Unix):
+### Instalación Anaconda en Unix
+
+Para configurar el entorno de trabajo con jupyter y todas las herramientas necesarias para este curso, pueden ejecutar los siguientes comandos:
 
 ```
 $ wget https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh
@@ -18,13 +20,18 @@ $ source activate diplodatos
 
 Instrucciones más completas [aquí](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart) cortesía de Digital Ocean. 
 
+### Instalación Anaconda en windows
+
+Solamente hay que descargar el instalar (para python 3) y hacer doble click para que se instale. Sigan todos los pasos, pero confirmen **Agregar conda a la variable PATH**, a pesar de que tenga un warning.
+
+Luego, abrir la consola (cmd) y ejecutar los últimos dos 
+
+```
+$ conda create --name diplodatos python=3.6 anaconda
+$ activate diplodatos
+```
+
 Si ya tenían conda instalado, comprueben que la versión instala seaborn 0.9 y no la 0.8, que a pesar de no ser un major release tiene varios major changes que hacen que los ejemplos de Internet. Ej: catplot (0.9) vs factorplot (0.8). Instalar manualmente seaborn 0.9 hace que, en algunas distribuciones, se rompa jupyter, así que en ese caso les recomendamos que i) reinstalen anaconda o ii) usen seaborn 0.8 directamente.
-
-Una vez que hayan activado el environment y clonado este repositorio, en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
-
-```
-$ jupyter notebook
-```
 
 Si prefieren utilizar otro manejador de paquetes distinto de conda, las librerías que utilizaremos son:
 
@@ -32,6 +39,16 @@ Si prefieren utilizar otro manejador de paquetes distinto de conda, las librerí
 * numpy
 * pandas
 * seaborn
+
+### Usando jupyter 
+
+Para lanzar una notebook, ingresar a la consola y navegar hasta el directorio en el que se encuentra la notebook. Allí, activar el environment (con `activate diplodatos` para Windows y `source activate diplodatos`. Esto deben hacerlo cada vez que abran una consola nueva. En este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
+
+```
+$ jupyter notebook
+```
+
+Con esto debería abrirse una nueva pestaña en el navegador que muestra el contenido del directorio en el que se abrió jupyter. Si esto no sucede, pueden copiar la dirección (de localhost) y abrirla directamente en el navegador. Copiar la dirección completa, con el token de seguridad.
 
 ### Opcionales
 
