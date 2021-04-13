@@ -4,7 +4,23 @@
 
 ### Confguración del entorno ###
 
-A lo largo de la diplomatura van a estar usando principalmente Python 3 ejecutado en *notebooks* interactivas de [Jupyter](https://jupyter.org/). Existen muchas formas de configurar y ejecutar estas notebooks, les recomendamos trabajar en un entorno local, pero de no ser posible, pueden usar un entorno online.
+A lo largo de la diplomatura van a estar usando principalmente Python 3 ejecutado en *notebooks* interactivas. Existen muchas formas de configurar y ejecutar estas notebooks, les recomendamos trabajar inicialmente en el entorno virtual Colaboratory. Luego, cuando estén familiarizados con las herramientas, pueden pasar a un entorno local de [Jupyter](https://jupyter.org/).
+
+#### Ejecución web - Colaboratory
+
+Trabajar sobre el entorno local algunas veces no es posible. En particular, cuando no podemos instalar Jupyter localmente por problemas de versions o permisos, o cuando la cantidad de datos o cómputo excede nuestro hardware.
+
+Les recomendamos usar Google Colaboratory para cargar y ejecutar notebooks en linea, disponible en `https://colab.research.google.com/notebook`. Por ejemplo, para abrir alguna de las notebooks de este repositorio, pueden ir a la pestaña `GitHub` y pegar la url de la notebook, por ejemplo, `https://github.com/DiploDatos/AnalisisyVisualizacion/blob/master/00_Leer_dataset.ipynb`. Esperen a que se cargue, y luego pueden abrirla.
+
+Colaboratory permite modificar y ejecutar las notebooks, y les provee de suficientes recursos de hardware para la mayoría de las aplicaciones que van a encontrar durante toda la diplomatura, incluyendo GPUs.
+
+Es importante notar que cuando modifiquen la notebook, sus cambios serán guardados en Drive, es decir, no afectan a la notebook guardada en github. Para trabajar sobre las notebooks de sus propios repositorios, pueden:
+
+1. Utilizar la opción *Archivo -> Guardar una copia en GitHub*, ingresar sus credenciales y seleccionar su repositorio.
+1. Descargar la notebook en formato `.ipynb` y subirla manualmente, o .
+
+Ejecutar las cosas en la red tiene sus desventajas. La principal, y tal vez controversial, es permitir acceso al código y a los datos a una empresa externa, lo cual no siempre es posible con politicas de propiedad intelectual o privacidad de datos estrictas.
+
 
 #### Entorno local
 
@@ -51,22 +67,18 @@ En caso de que el navegador no se abra automáticamente, pueden acceder al lab d
 Tanto si usan conda como si usan otro manejador de paquetes, deben instalar los siguientes paquetes.
 
 * pandas
-* seaborn=0.10
+* seaborn=0.11
 
 
-#### Ejecución web - Colaboratory
+### Profesores ###
 
-Trabajar sobre el entorno local algunas veces no es posible. En particular, cuando no podemos instalar Jupyter localmente por problemas de versions o permisos, o cuando la cantidad de datos o cómputo excede nuestro hardware.
+Teórico con:
+* Valeria Rulloni
+* Milagro Teruel
 
-Les recomendamos usar Google Colaboratory para cargar y ejecutar notebooks en linea, disponible en `https://colab.research.google.com/notebook`. Por ejemplo, para abrir alguna de las notebooks de este repositorio, pueden ir a la pestaña `GitHub` y pegar la url de la notebook, por ejemplo, `https://github.com/DiploDatos/AnalisisyVisualizacion/blob/master/02_practico_I.ipynb`. Esperen a que se cargue, y luego pueden abrirla.
+Práctico con:
+* Aldana González Montoro
+* Georgina Flesia
+* Karen Palacios
+* Mario Agustín Sgró
 
-Colaboratory permite modificar y ejecutar las notebooks, y les provee de suficientes recursos de hardware para la mayoría de las aplicaciones que van a encontrar durante toda la diplomatura, incluyendo GPUs.
-
-Es importante notar que cuando modifiquen la notebook, sus cambios serán locales, es decir, no afectan a la notebook guardada en github. Para trabajar sobre las notebooks de sus propios repositorios, deben descargar la notebook en formato `.ipynb` y subirla manualmente, o utilizar la opción *Save copy in GitHub* e ingresar sus credenciales.
-
-Ejecutar las cosas en la red tiene sus desventajas. La principal, y tal vez controversial, es permitir acceso al código y a los datos a una empresa externa, lo cual no siempre es posible con politicas de propiedad intelectual o privacidad de datos estrictas.
-
-### Porfesoras ###
-
-* Dr. Valeria Rulloni
-* Lic. Milagro Teruel
