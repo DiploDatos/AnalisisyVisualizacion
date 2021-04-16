@@ -79,6 +79,6 @@ Teórico con:
 Práctico con:
 * Aldana González Montoro
 * Georgina Flesia
-* Nehuen González
+* Nehuen González Montoro
 * Mario Agustín Sgró
 
