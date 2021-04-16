@@ -1,6 +1,6 @@
 # Análisis y Visualización de Datos #
 
-## Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2020
+## Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2021
 
 ### Confguración del entorno ###
 
@@ -79,6 +79,6 @@ Teórico con:
 Práctico con:
 * Aldana González Montoro
 * Georgina Flesia
-* Karen Palacios
+* Nehuen González
 * Mario Agustín Sgró
 
