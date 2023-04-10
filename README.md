@@ -10,7 +10,7 @@ A lo largo de la diplomatura van a estar usando principalmente Python 3 ejecutad
 
 Trabajar sobre el entorno local algunas veces no es posible. En particular, cuando no podemos instalar Jupyter localmente por problemas de versions o permisos, o cuando la cantidad de datos o cómputo excede nuestro hardware.
 
-Les recomendamos usar Google Colaboratory para cargar y ejecutar notebooks en linea, disponible en `https://colab.research.google.com/notebook`. Por ejemplo, para abrir alguna de las notebooks de este repositorio, pueden ir a la pestaña `GitHub` y pegar la url de la notebook, por ejemplo, `https://github.com/DiploDatos/AnalisisyVisualizacion/blob/master/00_Leer_dataset.ipynb`. Esperen a que se cargue, y luego pueden abrirla.
+Les recomendamos usar Google Colaboratory para cargar y ejecutar notebooks en linea, disponible en `https://colab.research.google.com/notebook`. Por ejemplo, para abrir alguna de las notebooks de este repositorio, pueden ir a la pestaña `GitHub` y pegar la url de la notebook, por ejemplo, `https://github.com/DiploDatos/AnalisisyVisualizacion/blob/master/00 Inicios en Python.ipynb`. Esperen a que se cargue, y luego pueden abrirla.
 
 Colaboratory permite modificar y ejecutar las notebooks, y les provee de suficientes recursos de hardware para la mayoría de las aplicaciones que van a encontrar durante toda la diplomatura, incluyendo GPUs.
 
