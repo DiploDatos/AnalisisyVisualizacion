@@ -1,6 +1,6 @@
 # Análisis y Visualización de Datos #
 
-## Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2022
+## Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2023
 
 ### Confguración del entorno ###
 
@@ -70,19 +70,9 @@ Tanto si usan conda como si usan otro manejador de paquetes, deben instalar los 
 * seaborn=0.11
 
 
-### Profesores ###
+### Profesoras ###
 
-Teórico con:
 * Valeria Rulloni
 * Laura Minuet
 
-Práctico con:
-* Aldana González Montoro
-* Georgina Flesia
-* Nehuen González Montoro
-* Mario Agustín Sgró
-* Alejandro García
-* Facundo Godoy
-* Rocío fonseca
-* Josefina Meirovich
 
