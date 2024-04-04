@@ -72,7 +72,7 @@ Tanto si usan conda como si usan otro manejador de paquetes, deben instalar los 
 
 ### Profesoras ###
 
-* Valeria Rulloni
-* Laura Minuet
+* Georgina Flesia
+* Karim Nemer
 
 
