@@ -1,6 +1,6 @@
 # Análisis y Visualización de Datos #
 
-## Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2025
+## Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2026
 
 ### Confguración del entorno ###
 
